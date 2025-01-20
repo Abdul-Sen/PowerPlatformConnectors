@@ -1,7 +1,7 @@
-# OnePlan
-
 # OnePlan Connector
 OnePlan offers an AI-enabled Strategic Portfolio, Financial, Resource and Work Management Platform that fits the needs of every organization. OnePlan connects with Microsoft Project, Microsoft Planner, Azure DevOps, Jira, Smartsheet and more for a complete view into all work across the enterprise.
+
+# Publisher: OnePlan AI
 
 ## Prerequisites
 You will need the following to proceed:
@@ -15,7 +15,7 @@ You will need the following to proceed:
 Create a new OnePlan Group. Go to Configuration page (gear icon on the top-right) and request to enable advanced settings. Once Advanced Settings is enabled, go to Integrations page, and add a new authentication key. Use that key to create the OnePlan Power Automate connector. Contact customer support for assistance.
 
 
-## Supported Actions
+## Supported Operations
 ### 'Get Plan': 
 Description: Get an individual plan from your OnePlan Group based on the Plan Id. Includes built-in fields and custom fields for the plan.
 
@@ -70,3 +70,12 @@ Required parameters: None
 Trigger Action for when Plan gets updated
 
 Required parameters: None
+
+## Obtaining Credentials
+Navigate to my.oneplan.ai, setup a trial group and follow the onboarding process. For any inquires reach out to to [OnePlan Support](https://support.oneplan.ai/hc/en-us/requests/new)
+
+## Known Issues and Limitations
+The connector does not support Work Plan actions at the moment.
+
+## Deployment Instructions
+Create a custom connector with the given api definition file, validate, and in the Test section add a new connection. To get the key go to your OnePlan group's config page. Navigate to Integrations from left bar and add a new authentication key. Copy the same key as the value for your connector to connect to your OnePlan environment.
